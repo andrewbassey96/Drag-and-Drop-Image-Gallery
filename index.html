@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and Drop Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <h1>Drag & Drop Image Gallery</h1>
+        <p>Drag any small image into the large display box.</p>
+
+        <div class="gallery">
+            <div class="small-images">
+                <img src="Image/Image 1.png" alt="Image 1" draggable="true">
+                <img src="Image/image 2.png" alt="Image 2" draggable="true">
+                <img src="Image/Image 3.jpg" alt="Image 3" draggable="true">
+                <img src="Image/Image 4.jpg" alt="Image 4" draggable="true">
+                <img src="Image/Image 5.jpg" alt="Image 5" draggable="true">
+            </div>
+
+            <div class="display-box" id="displayBox">
+                <img id="largeImage" src="images/image1.jpg" alt="Selected image">
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
